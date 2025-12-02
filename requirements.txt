@@ -1,0 +1,31 @@
+# Web framework - FastAPI
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.0.0
+
+# HTTP clients for FKS service integration
+httpx>=0.25.0
+requests>=2.31.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Market data and analysis
+yfinance>=0.2.0
+
+# Caching
+redis>=5.0.0
+
+# Security
+cryptography>=41.0.0
+
+# System utilities
+psutil>=5.9.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: Optimization
+optuna>=3.5.0
