@@ -19,9 +19,6 @@ services:
       - PYTHONPATH=/app/src:/app
       - TRADING_MODE_TYPE=${TRADING_MODE_TYPE:-simulation}
       - ENABLE_PROP_FIRM_RULES=${ENABLE_PROP_FIRM_RULES:-true}
-    volumes:
-      - ./data:/app/data
-      - ./logs:/app/logs
     networks:
       - fks-network
     restart: unless-stopped
